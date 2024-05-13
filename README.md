@@ -1,13 +1,13 @@
-  Universidad Tecnológica Metropolitana
+Universidad Tecnológica Metropolitana
   
-          Aplicaciones Web
+Aplicaciones Web
 
-    Ruth Betsaida Martinez Dominguez
+Ruth Betsaida Martinez Dominguez
   
-    Practicas Parcial 1 - Practica 4
+Practicas Parcial 1 - Practica 4
 
-      Julian Nahim Buenfil Yunes
+Julian Nahim Buenfil Yunes
 
-    Cuatrimestre III - 3C - Parcial I
+Cuatrimestre III - 3C - Parcial I
 
-          13 de Mayo de 2024
+13 de Mayo de 2024
