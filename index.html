@@ -1,0 +1,102 @@
+<!--
+
+  Universidad Tecnológica Metropolitana
+  
+          Aplicaciones Web
+
+    Ruth Betsaida Martinez Dominguez
+  
+    Practicas Parcial 1 - Practica 2
+
+      Julian Nahim Buenfil Yunes
+
+    Cuatrimestre III - 3C - Parcial I
+
+          9 de Mayo de 2024
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="formulario">
+    <br>
+    
+    <h1>Formulario de solicitud de pasaporte</h1>
+
+    <form action="procesar_formulario.php" method="post">
+
+        <fieldset>
+
+          <div class="field">
+            <label for="apellido1">Apellido:</label>
+            <input type="text" id="apellido1" name="apellido1" placeholder="Apellido (como se muesta en su pasaporte)" required>
+          </div>
+
+          <div class="field">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Solo nombre" required>
+          </div>
+
+          <div class="field">
+            <label for="fecha_nacimiento">Fecha de nacimiento:</label>
+            <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
+          </div>
+
+          <div class="field">
+            <label for="ciudad_nacimiento">Ciudad de nacimiento:</label>
+            <input type="text" id="ciudad_nacimiento" name="ciudad_nacimiento" placeholder="Ciudad de nacimiento" required>
+          </div>
+
+          <div class="field">
+            <label for="pais_nacimiento">País de nacimiento:</label>
+            <select id="pais_nacimiento" name="pais_nacimiento" required>
+                <option value="México">México</option>
+                <option value="Otro">Otro</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="nacionalidad">Nacionalidad:</label>
+            <select id="nacionalidad" name="nacionalidad" required>
+              <option value="México">México</option>
+              <option value="Otro">Otro</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="numero_pasaporte">Número de pasaporte:</label>
+            <input type="text" id="numero_pasaporte" name="numero_pasaporte" placeholder="Número de pasaporte" required>
+          </div>
+
+          <div class="field">
+            <label for="pais_emision">País donde ha sido emitido su pasaporte:</label>
+            <select id="pais_emision" name="pais_emision" required>
+                <option value="México">México</option>
+                <option value="Otro">Otro</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="fecha_emision">Fecha de emisión del pasaporte:</label>
+            <input type="date" id="fecha_emision" name="fecha_emision" required>
+          </div>
+
+          <div class="field">
+            <label for="fecha_vencimiento">Fecha de vencimiento de su pasaporte:</label>
+            <input type="date" id="fecha_vencimiento" name="fecha_vencimiento" required>
+          </div>
+
+        </fieldset>
+
+        <button type="submit">Enviar formulario</button>
+    </form>
+  </div>
+</body>
+</html>
